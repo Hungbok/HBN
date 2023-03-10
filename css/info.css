@@ -221,7 +221,7 @@ ul.myMenu > li ul.submenu > li:hover {
 }
 
 .profile-top {
-  margin: 60px 0px 110px;
+  margin: 60px 0px 80px;
 }
 
 .profile-top::after {
@@ -271,7 +271,7 @@ ul.myMenu > li ul.submenu > li:hover {
 }
 
 .profile-realname {
-  margin-top: 6px;
+  margin-top: 16px;
   color: #ffffff;
 }
 
@@ -287,7 +287,7 @@ ul.myMenu > li ul.submenu > li:hover {
   color: #dddddd;
   display: inline-block;
   font-weight: 700;
-  margin: 0px 5px;
+  margin: 10px 5px;
   padding: 0px 5px;
   border-radius: 5px;
   cursor: pointer;
@@ -1635,6 +1635,9 @@ ul.myMenu > li ul.submenu > li:hover {
   }
   .profile-top::after {
     height: 405px!important;
+  }
+  .profile-top {
+    margin: 60px 0px 67px;
   }
 }
 
