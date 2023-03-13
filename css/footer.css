@@ -25,3 +25,7 @@
     width: calc(100% - 20px);
     margin: auto;
 }
+
+.copyright::after {
+	content: "Copyright 2022. HungBok All Rights Reserved.";
+}

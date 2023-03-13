@@ -21,10 +21,6 @@ img {
 	-webkit-user-drag: none;
 }
 
-.copyright::after {
-	content: "Copyright 2022. HungBok All Rights Reserved.";
-}
-
 body::-webkit-scrollbar {
     width: 8px;
     height: 8px;
