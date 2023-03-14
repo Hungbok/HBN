@@ -130,45 +130,6 @@
         
         function init(localeStr) {
             document.getElementById("locale").textContent = localeStr
-
-            if (localeStr === "en") {
-                $('#value').attr("placeholder", "Search...");
-                $('.watched-date').attr("title", "Watched Date");
-                $('.year').attr("title", "Original Release");
-                $('.type.movie').attr("title", "Movie");
-                $('.type.tva').attr("title", "TV Anime");
-                $('.type.tv').attr("title", "TV Series");
-                $('.type.eiga').attr("title", "Anime The Movie");
-                $('.season').attr("title", "Season");
-                $('.episode').attr("title", "Episode");
-                $('.watched-episode').attr("title", "Watched Episode");
-            }
-
-            if (localeStr === "ko") {
-                $('#value').attr("placeholder", "검색...");
-                $('.watched-date').attr("title", "시청 날짜");
-                $('.year').attr("title", "최초 공개");
-                $('.type.movie').attr("title", "영화");
-                $('.type.tva').attr("title", "애니메이션");
-                $('.type.tv').attr("title", "드라마");
-                $('.type.eiga').attr("title", "극장판");
-                $('.season').attr("title", "시즌");
-                $('.episode').attr("title", "화수");
-                $('.watched-episode').attr("title", "시청한 회차");
-            }
-
-            if (localeStr === "ja") {
-                $('#value').attr("placeholder", "検索...");
-                $('.watched-date').attr("title", "視聴日");
-                $('.year').attr("title", "初公開");
-                $('.type.movie').attr("title", "映画");
-                $('.type.tva').attr("title", "アニメーション");
-                $('.type.tv').attr("title", "ドラマ");
-                $('.type.eiga').attr("title", "劇場版");
-                $('.season').attr("title", "シーズン");
-                $('.episode').attr("title", "エピソード");
-                $('.watched-episode').attr("title", "視聴したエピソード");
-            }
         }
         
         const currentLang = getLanguage()
@@ -181,6 +142,44 @@
                 const code = el.dataset.lang
                 el.textContent = lang[locale][code]
             })
+            if (locale === "en") {
+                $('#value').attr("placeholder", "Search...");
+                $('.watched-date').attr("title", "Watched Date");
+                $('.year').attr("title", "Original Release");
+                $('.type.movie').attr("title", "Movie");
+                $('.type.tva').attr("title", "TV Anime");
+                $('.type.tv').attr("title", "TV Series");
+                $('.type.eiga').attr("title", "Anime The Movie");
+                $('.season').attr("title", "Season");
+                $('.episode').attr("title", "Episode");
+                $('.watched-episode').attr("title", "Watched Episode");
+            }
+
+            if (locale === "ko") {
+                $('#value').attr("placeholder", "검색...");
+                $('.watched-date').attr("title", "시청 날짜");
+                $('.year').attr("title", "최초 공개");
+                $('.type.movie').attr("title", "영화");
+                $('.type.tva').attr("title", "애니메이션");
+                $('.type.tv').attr("title", "드라마");
+                $('.type.eiga').attr("title", "극장판");
+                $('.season').attr("title", "시즌");
+                $('.episode').attr("title", "화수");
+                $('.watched-episode').attr("title", "시청한 회차");
+            }
+
+            if (locale === "ja") {
+                $('#value').attr("placeholder", "検索...");
+                $('.watched-date').attr("title", "視聴日");
+                $('.year').attr("title", "初公開");
+                $('.type.movie').attr("title", "映画");
+                $('.type.tva').attr("title", "アニメーション");
+                $('.type.tv').attr("title", "ドラマ");
+                $('.type.eiga').attr("title", "劇場版");
+                $('.season').attr("title", "シーズン");
+                $('.episode').attr("title", "エピソード");
+                $('.watched-episode').attr("title", "視聴したエピソード");
+            }
         }
 
         document.getElementById("btn-en").addEventListener("click", e => {
