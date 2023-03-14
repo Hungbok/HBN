@@ -321,7 +321,7 @@ ul.myMenu > li ul.submenu > li:hover {
 }
 
 .info-box {
-  color: #dddddd;
+  color: #ffffff;
   background-color: #2f2f2f;
   display: inline-block;
   width: 175px;
@@ -469,7 +469,6 @@ ul.myMenu > li ul.submenu > li:hover {
   min-height: 10px;
   max-width: 75px;
   min-width: 10px;
-  filter: opacity(0.5) grayscale(1) drop-shadow(0 0 0 white);
 }
 
 .link-box:hover .link-icon img {
@@ -808,7 +807,6 @@ ul.myMenu > li ul.submenu > li:hover {
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  filter: brightness(75%);
 	-webkit-transition:all 0.25s;
 	-moz-transition:all 0.25s;
 	-o-transition:all 0.25s;
@@ -1519,7 +1517,6 @@ ul.myMenu > li ul.submenu > li:hover {
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  filter: brightness(75%);
   box-shadow: 0 10px 20px rgb(0 0 0 / 60%);
   -webkit-transition: all 0.25s;
   -moz-transition: all 0.25s;
