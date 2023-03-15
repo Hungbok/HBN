@@ -22,32 +22,32 @@ img {
 }
 
 body::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
+    width: 12px;
+    height: 12px;
 }
 
 body::-webkit-scrollbar-thumb {
-    border-radius: 4px;
-    background-color: rgb(102, 102, 102, 0.8);
+    border-radius: 6px;
+    background-color: #666666;
     -webkit-background-clip: content-box;
     background-clip: content-box;
     border: 2px solid transparent;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-    border-radius: 4px;
-    background-color: rgb(102, 102, 102, 0.8);
+    border-radius: 7px;
+    background-color: #666666;
     -webkit-background-clip: content-box;
     background-clip: content-box;
-    border: 2px solid rgb(102, 102, 102, 0.8);
+    border: 2px solid #666666;
 }
 
 body::-webkit-scrollbar-thumb:active {
-    border-radius: 4px;
-    background-color: rgb(102, 102, 102, 0.4);
+    border-radius: 7px;
+    background-color: #444444;
     -webkit-background-clip: content-box;
     background-clip: content-box;
-    border: 2px solid rgb(102, 102, 102, 0.4);
+    border: 2px solid #444444;
 }
 
 body::-webkit-scrollbar-track {
