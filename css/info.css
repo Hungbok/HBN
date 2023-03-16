@@ -211,7 +211,7 @@ ul.myMenu > li ul.submenu > li:hover {
   background-repeat: repeat;
   background-attachment: fixed;
   height: 300px;
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
   float: left;
   top: 0;
