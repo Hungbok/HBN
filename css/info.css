@@ -623,6 +623,14 @@ ul.myMenu > li ul.submenu > li:hover {
   margin-left: 5px;
 }
 
+.qr-code-preload {
+  opacity: 0;
+  pointer-events: none;
+  z-index: -9999;
+  position: absolute;
+  visibility: hidden;
+}
+
 .qr-popup {
 	position: fixed;
 	top: 0;
