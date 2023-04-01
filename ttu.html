@@ -8,25 +8,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/ttu.css">
     <link rel="stylesheet" href="/css/light.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 </head>
   <body>
     <h1 onClick="window.location.reload()">TTU</h1>
     <h4>Title to Url</h4>
-    <textarea id="textinput1_2007121003" style="height:202px; padding:10px; background-color:#fff" onkeyup="String.prototype.capitalizeSilva = function() { return this.replace(/\w+/g, function(a) { return a.charAt(0).toUpperCase() + a.substr(1).toLowerCase(); }); }; document.getElementById('textoutput2_2007121003').value = this.value.toLowerCase(); this.onfocus = null">tHE qUICK bROWN fOX jUMPS oVER tHE lAZY dOG.</textarea>
-    <br><br>
+    <!--<textarea id="textinput1_2007121003" style="height:202px; padding:10px; background-color:#fff" onkeyup="String.prototype.capitalizeSilva = function() { return this.replace(/\w+/g, function(a) { return a.charAt(0).toUpperCase() + a.substr(1).toLowerCase(); }); }; document.getElementById('textoutput2_2007121003').value = this.value.toLowerCase(); this.onfocus = null">tHE qUICK bROWN fOX jUMPS oVER tHE lAZY dOG.</textarea>-->
+    <textarea id="textinput1_2007121003" style="height:202px; padding:10px; background-color:#fff">tHE qUICK bROWN fOX jUMPS oVER tHE lAZY dOG.</textarea>
     <button type="button" id="generate-btn">Generate</button>
     <br><br>
-    <textarea id="textoutput2_2007121003" style="height:150px; padding:10px; background-color:#fff" readonly="readonly" onclick="this.select()" onfocus="this.select()">the quick brown fox jumps over the lazy dog.</textarea>
-  <script>
-    $.fn.copyTo = function(selector) {
-        $(selector).val($(this[0]).val().replace(/\s/g, "_"));
-    };
-    
-    $(document).ready(function () {
-        $("#generate-btn").click(function() {
-            $("#textinput1_2007121003").copyTo("#textoutput2_2007121003");
-        });
-    });
-  </script>
+    <textarea id="textoutput2_2007121003" style="height:150px; padding:10px; background-color:#fff; text-transform: lowercase" readonly="readonly" onclick="this.select()" onfocus="this.select()">the quick brown fox jumps over the lazy dog.</textarea>
+    <script>
+      $.fn.copyTo = function(selector) {
+          $(selector).val($(this[0]).val().replace(/\s/g, "-"));
+      };
+      
+      $(document).ready(function () {
+          $("#generate-btn").click(function() {
+              $("#textinput1_2007121003").copyTo("#textoutput2_2007121003");
+          });
+      });
+    </script>
   </body>
 </html>
