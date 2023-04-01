@@ -10,6 +10,10 @@ body {
   }
   
   #generate-btn {
+    margin-top: calc(2rem - 5px);
+  }
+
+  #textoutput2_2007121003 {
     margin-top: 2rem;
   }
   
