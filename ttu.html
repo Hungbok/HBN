@@ -14,6 +14,19 @@
     <h4>Title to Url</h4>
     <textarea id="textinput1_2007121003" style="height:202px; padding:10px; background-color:#fff" onkeyup="String.prototype.capitalizeSilva = function() { return this.replace(/\w+/g, function(a) { return a.charAt(0).toUpperCase() + a.substr(1).toLowerCase(); }); }; document.getElementById('textoutput2_2007121003').value = this.value.toLowerCase(); this.onfocus = null">tHE qUICK bROWN fOX jUMPS oVER tHE lAZY dOG.</textarea>
     <br><br>
+    <button type="button" id="generate-btn">Generate</button>
+    <br><br>
     <textarea id="textoutput2_2007121003" style="height:150px; padding:10px; background-color:#fff" readonly="readonly" onclick="this.select()" onfocus="this.select()">the quick brown fox jumps over the lazy dog.</textarea>
+  <script>
+    $.fn.copyTo = function(selector) {
+        $(selector).val($(this[0]).val().replace(/\s/g, "_"));
+    };
+    
+    $(document).ready(function () {
+        $("#generate-btn").click(function() {
+            $("#textinput1_2007121003").copyTo("#textoutput2_2007121003");
+        });
+    });
+  </script>
   </body>
 </html>
