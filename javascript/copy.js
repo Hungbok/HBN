@@ -566,6 +566,15 @@ function name_en() {
     }, 3000);
   }
 
+  function honkai_star_rail() {
+    navigator.clipboard.writeText('801340440');
+    let newtime = new Date().getTime();
+    $('.profile-section').append('<div class="copied ' + newtime + '"><img src="/image/icon/done.svg"></div>');
+    setTimeout(function(){
+      $('.copied.' + newtime).remove();
+    }, 3000);
+  }
+
   function lol() {
     navigator.clipboard.writeText('흥복흥복');
     let newtime = new Date().getTime();
