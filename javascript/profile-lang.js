@@ -109,6 +109,7 @@ const lang = {
         busted: "Busted!",
 
         watch_history: "Watch History",
+        more_view: "View More",
         guideline: "*In the event of any malicious acts or attempts, including acts that violate the terms of service, such as excessive friend requests without clear reasons or inducing difficulties in using an account, each government agency or You can proceed with the investigation by requesting a similar organization.",
     },
     ja: {
@@ -222,6 +223,7 @@ const lang = {
         community_account: "コミュニティ",
         service_account: "サービス",
         suzume: "すずめの戸締まり",
+        more_view: "もっと見る",
     },
     ko: {
         lang: "언어",
@@ -334,6 +336,7 @@ const lang = {
         community_account: "커뮤니티",
         service_account: "서비스",
         suzume: "스즈메의 문단속",
+        more_view: "더보기",
     },
 }
 
