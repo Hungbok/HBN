@@ -674,6 +674,15 @@ function name_en() {
     }, 3000);
   }
 
+  function alipay() {
+    navigator.clipboard.writeText('hungbokhb@naver.com');
+    let newtime = new Date().getTime();
+    $('.profile-section').append('<div class="copied ' + newtime + '"><img src="/image/icon/done.svg"></div>');
+    setTimeout(function(){
+      $('.copied.' + newtime).remove();
+    }, 3000);
+  }
+
   function kakaopay() {
     navigator.clipboard.writeText('흥복');
     let newtime = new Date().getTime();
