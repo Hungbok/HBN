@@ -45,7 +45,7 @@ function name_en() {
   }
 
   function discord() {
-    navigator.clipboard.writeText('HungBok#0624');
+    navigator.clipboard.writeText('hungbok');
     let newtime = new Date().getTime();
     $('.profile-section').append('<div class="copied ' + newtime + '"><img src="/image/icon/done.svg"></div>');
     setTimeout(function(){
