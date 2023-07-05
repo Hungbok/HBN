@@ -28,7 +28,7 @@
     "watched_episode": "[tv/tva]"
   },
   {
-    "count": 1188,
+    "count": 1189,
     "id": "",
     "title": "スキップとローファー",
     "en_title": "Skip and Loafer",
@@ -126,6 +126,31 @@
     "watched_month": "6",
     "watched_day": "30",
     "watched_episode": "11"
+  },
+  {
+    "count": 1188,
+    "id": "",
+    "title": "名探偵コナン: 灰原哀物語~黒鉄のミステリートレイン~",
+    "en_title": "Detective Conan: Episode of Ai Haibara ~Black Iron Mystery Train~",
+    "ja_title": "名探偵コナン: 灰原哀物語~黒鉄のミステリートレイン~",
+    "ko_title": "명탐정 코난: 하이바라 아이 이야기 ~흑철의 미스터리 트레인~",
+    "year": "2023",
+    "month": "1",
+    "day": "6",
+    "type": "movie",
+    "country": "Japan",
+    "language": "Japanese",
+    "logo": "/anime/meitantei-conan-haibara-ai-monogatari-kurogane-no-mystery-train/logo.png",
+    "poster": "/anime/meitantei-conan-haibara-ai-monogatari-kurogane-no-mystery-train/thumbnail.jpg",
+    "background": "/anime/meitantei-conan-haibara-ai-monogatari-kurogane-no-mystery-train/background.jpg",
+    "url": "/anime/meitantei-conan-haibara-ai-monogatari-kurogane-no-mystery-train/home",
+    "season": "",
+    "episode": "",
+    "runtime": "90",
+    "watched_year": "2023",
+    "watched_month": "6",
+    "watched_day": "24",
+    "watched_episode": ""
   },
   {
     "count": 1187,
