@@ -143,6 +143,15 @@ function name_en() {
     }, 3000);
   }
 
+  function threads() {
+    navigator.clipboard.writeText('@heungbok_lee');
+    let newtime = new Date().getTime();
+    $('.profile-section').append('<div class="copied ' + newtime + '"><img src="/image/icon/done.svg"></div>');
+    setTimeout(function(){
+      $('.copied.' + newtime).remove();
+    }, 3000);
+  }
+
   function telegram() {
     navigator.clipboard.writeText('@heungbok_lee');
     let newtime = new Date().getTime();
@@ -469,6 +478,15 @@ function name_en() {
 
   function stadia() {
     navigator.clipboard.writeText('HungBok#7160');
+    let newtime = new Date().getTime();
+    $('.profile-section').append('<div class="copied ' + newtime + '"><img src="/image/icon/done.svg"></div>');
+    setTimeout(function(){
+      $('.copied.' + newtime).remove();
+    }, 3000);
+  }
+
+  function luna() {
+    navigator.clipboard.writeText('HungBok#3191');
     let newtime = new Date().getTime();
     $('.profile-section').append('<div class="copied ' + newtime + '"><img src="/image/icon/done.svg"></div>');
     setTimeout(function(){
