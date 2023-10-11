@@ -18,8 +18,8 @@
         border-radius: 10px;
         color: #000000;
         width: 100px;
-        padding: 15px 20px;
-        margin: 20px;
+        padding: 10px 10px;
+        margin: 5px 20px;
         cursor: pointer;
         user-select: none;
         display: inline-block;
@@ -97,23 +97,29 @@
     <h4>Url To Shortening</h4>
     <form name="theForm" style="background-color: transparent; text-align: center; padding: 0;">
       <div class="radios" style="height: 202px; padding: 10px; background-color: #fff; width: 100%; resize: none; margin: 0; max-width: 100%; border: 0; border-radius: 0.25rem; font: inherit; line-height: 1.125;">
-          <input type="radio" id="myRadio1" name="numbers" value="8" checked>
-          <label for="myRadio1">8</label>
-          <input type="radio" id="myRadio2" name="numbers" value="12">
-          <label for="myRadio2">12</label>
-          <input type="radio" id="myRadio3" name="numbers" value="16">
-          <label for="myRadio3">16</label>
-          <div style="position: relative; text-align: center;">
+          <input type="radio" id="myRadio6" name="numbers" value="6">
+          <label for="myRadio6">6</label>
+          <input type="radio" id="myRadio8" name="numbers" value="8">
+          <label for="myRadio8">8</label>
+          <input type="radio" id="myRadio10" name="numbers" value="10" checked>
+          <label for="myRadio10">10</label>
+          <input type="radio" id="myRadio12" name="numbers" value="12">
+          <label for="myRadio12">12</label>
+          <input type="radio" id="myRadio14" name="numbers" value="14">
+          <label for="myRadio14">14</label>
+          <input type="radio" id="myRadio16" name="numbers" value="16">
+          <label for="myRadio16">16</label>
+          <div style="position: relative; text-align: center; margin: 10px 0px;">
             <input type="checkbox" id="specialCharsCB" value="yes">
             <label for="specialCharsCB"></label>
-            <div style="margin: 10px; font-weight: 600;">Include Special characters</div>
+            <div style="margin: 5px 0px 0px; font-weight: 600;">Include Special characters</div>
           </div>
       </div>
       <div class="actions" style="margin-top: 2rem; font-weight: 600;">
         <input type="button" value="Generate" onClick="randomString();" class="btn">
       </div>
       <div class="actions" style="font-size: 30px; background-color: #fff; height: 150px; padding: 10px; margin-top: 2rem; width: 100%; resize: none; max-width: 100%; border: 0; border-radius: 0.25rem; line-height: 1.125;">
-        <p style="float: left; padding: 45px 0px; margin: 0; color: #aaa;">https://hgbk.me/</p><input type="text" name="theField" width="100%" size="17.5" value="" id="stringBox" style="padding: 45px 0px; float: right; text-align: center;" onclick="this.select();">
+        <p style="float: left; padding: 45px 0px; margin: 0; color: #aaa; height: 130px;">https://hgbk.me/</p><input type="text" name="theField" width="100%" size="19" value="" id="stringBox" style="padding: 45px 0px; float: right; text-align: center; height: 130px; cursor: default;" onclick="this.select();">
       </div>
     </form>
     <script>
@@ -138,7 +144,7 @@
         //  Adjust the size of the box based on the string. There must be a better way to do this.
         //  Perhaps to actually get the physical width of the string of characters? This is my
         //  temporary solution below.
-        document.theForm.theField.size  = stringLength = 17.5;  
+        document.theForm.theField.size  = stringLength = 19;  
         // Print the string to the textfield
         document.theForm.theField.value = randomString;
       }      
