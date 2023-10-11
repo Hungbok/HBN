@@ -118,8 +118,8 @@
       <div class="actions" style="margin-top: 2rem; font-weight: 600;">
         <input type="button" value="Generate" onClick="randomString();" class="btn">
       </div>
-      <div class="actions" style="font-size: 30px; background-color: #fff; height: 150px; padding: 10px; margin-top: 2rem; width: 100%; resize: none; max-width: 100%; border: 0; border-radius: 0.25rem; line-height: 1.125;">
-        <p style="float: left; padding: 45px 0px; margin: 0; color: #aaa; height: 130px;">https://hgbk.me/</p><input type="text" name="theField" width="100%" size="19" value="" id="stringBox" style="padding: 45px 0px; float: right; text-align: center; height: 130px; cursor: default;" onclick="this.select();">
+      <div class="actions" style="font-size: 25px; background-color: #fff; height: 150px; padding: 10px; margin-top: 2rem; width: 100%; resize: none; max-width: 100%; border: 0; border-radius: 0.25rem; line-height: 1.125;">
+        <p style="display: inline-block; padding: 45px 0px; margin: 0; color: #000; height: 130px;">https://hgbk.me/</p><input type="text" name="theField" width="100%" size="20" value="" id="stringBox" style="display: inline-block; padding: 45px 0px; text-align: center; height: 130px; cursor: default;" onclick="this.select();">
       </div>
     </form>
     <script>
@@ -144,7 +144,7 @@
         //  Adjust the size of the box based on the string. There must be a better way to do this.
         //  Perhaps to actually get the physical width of the string of characters? This is my
         //  temporary solution below.
-        document.theForm.theField.size  = stringLength = 19;  
+        document.theForm.theField.size  = stringLength = 20;  
         // Print the string to the textfield
         document.theForm.theField.value = randomString;
       }      
