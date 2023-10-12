@@ -658,6 +658,11 @@ ul.myMenu > li ul.submenu > li:hover {
     margin: 0px 2.5%;
 } */
 
+.data-title {
+    top: 50%;
+    position: relative;
+}
+
 @media(max-width:1077px) {
     .ended::after,
     .ended::before {

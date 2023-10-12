@@ -684,7 +684,7 @@ function name_en() {
   }
 
   function bitcoin() {
-    navigator.clipboard.writeText('bc1q3h3ckv7m4np2znn26n0wjc5acjqj8cycgzvgn3');
+    navigator.clipboard.writeText('bc1qt7pdrq88pu02r60tcsjam4jxfwxdzxzxlfgfug');
     let newtime = new Date().getTime();
     $('.profile-section').append('<div class="copied ' + newtime + '"><img src="/image/icon/done.svg"></div>');
     setTimeout(function(){

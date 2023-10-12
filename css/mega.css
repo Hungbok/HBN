@@ -1,0 +1,32 @@
+.mega {
+	background-color: #666;
+	text-align: left;
+}
+
+.first-folder {
+	margin-left: 10px
+}
+
+.second-folder {
+	margin-left: 10px
+}
+
+.third-folder {
+	margin-left: 10px
+}
+
+.fourth-folder {
+	margin-left: 10px
+}
+
+.fifth-folder {
+	margin-left: 10px
+}
+
+.mega-item {
+	margin-left: 10px
+}
+
+.mega-item table {
+	text-align: center;
+}

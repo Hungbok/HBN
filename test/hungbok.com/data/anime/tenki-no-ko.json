@@ -1,0 +1,30 @@
+[
+    {
+      "count": 1,
+      "id": "9426210",
+      "title": "天気の子",
+      "title_ti": "天気の子",
+      "en_title": "Weathering With You",
+      "en_title_ti": "Weathering With You",
+      "ja_title": "天気の子",
+      "ja_title_ti": "天気の子",
+      "ko_title": "날씨의 아이",
+      "ko_title_ti": "날씨의 아이",
+      "year": "2019",
+      "month": "7",
+      "day": "19",
+      "type": "movie",
+      "s_type": "movie",
+      "e_type": "movie",
+      "country": "Japan",
+      "language": "Japanese",
+      "logo": "https://www.hungbok.net/anime/tenki-no-ko/logo.png",
+      "poster": "https://www.hungbok.net/anime/tenki-no-ko/thumbnail.jpg",
+      "background": "https://www.hungbok.net/anime/tenki-no-ko/background.jpg",
+      "background_onerror": "https://www.hungbok.net/anime/tenki-no-ko/thumbnail.jpg",
+      "url": "https://www.hungbok.net/anime/tenki-no-ko/home",
+      "season": "",
+      "episode": "",
+      "runtime": "112"
+    }
+]

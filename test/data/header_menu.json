@@ -1,0 +1,20 @@
+[
+    {
+        "menu": "Home",
+        "class": "menu",
+        "link": "href='/'",
+        "data_lang": "menu_home"
+    },
+    {
+        "menu": "Game",
+        "class": "menu",
+        "link": "href='/game'",
+        "data_lang": "menu_game"
+    },
+    {
+        "menu": "Anime",
+        "class": "menu",
+        "link": "href='/anime'",
+        "data_lang": "menu_anime"
+    }
+]
